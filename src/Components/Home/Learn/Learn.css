@@ -1,0 +1,151 @@
+.learnMain {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.learnLeft {
+  height: 100%;
+  width: 70%;
+}
+
+.learnRight {
+  height: 100%;
+  width: 30%;
+  border-left: 1px solid rgb(147, 147, 255);
+}
+
+.mappingButtons {
+  height: 30%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.controlButtons {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-top: 1px solid  rgb(147, 147, 255);
+}
+
+.mappingButtons div {
+  height: 40px;
+  width: fit-content;
+  min-width: 100px;
+  background-color: rgb(147, 147, 255);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s ease-in-out;
+}
+
+.mappingButtons div:hover {
+  transform: translate(0, -2%);
+}
+
+.controlBox {
+  height: 200px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.upArrowKey {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
+}
+
+.downArrowKey {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}
+.rightArrowKey {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.leftArrowKey {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.remoteKey {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(255, 147, 147);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(65, 65, 93);;
+    border-radius: 40%;
+}
+
+.stopButton {
+    height: 75px;
+    aspect-ratio: 1;
+    background-color: rgb(147, 147, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.remoteKey:hover {
+    color: gray;
+}
+
+.stopButton:hover {
+    color: gray;
+}
+
+.actionsButtons {
+    height: 100px;
+    width: 70%;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid  rgb(147, 147, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.Charge, .AddData, .Interact {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(147, 147, 255);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Charge:hover , .AddData

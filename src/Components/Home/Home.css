@@ -1,0 +1,30 @@
+.homeMain {
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.AutoModeBtn,
+.LearnModeBtn {
+  height: 60px;
+  min-width: 200px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(160, 160, 255);
+  color: white;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.AutoModeBtn:hover,
+.LearnModeBtn:hover {
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 3px white inset;
+}
